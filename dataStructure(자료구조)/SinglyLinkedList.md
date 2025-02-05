@@ -29,11 +29,11 @@
     pop 의사코드
     맨 뒤의 노드 삭제
     1.만약 리스트에 노드가 없다면 undefined 반환
+    6.만약 head와 newTail이 가르키는 값이 같다면(혹은this.length===1이라면) head와 tail을 null로 설정
     2.tail에 다다를때까지 전체 리스트를 루프를 통해 따라간다(이전 노드가 어떤 것인지 추적해야함, temp와 newTail 변수로 추적)
     3.마지막에서 두번째 노드의 next를 null로 설정
     4.tail을 마지막에서 두번째 노드로 설정
     5.길이를 1 감소
-    6.만약 head와 newTail이 가르키는 값이 같다면(혹은this.length===0이라면) head와 tail을 null로 설정
     6.제거된 노드를 반환
 
     shift 의사코드
