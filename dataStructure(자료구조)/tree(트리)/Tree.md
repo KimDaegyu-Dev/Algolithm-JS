@@ -48,3 +48,19 @@
             작으면 왼쪽에 노드가 있는지 확인
             있으면 노드로 이동, 없으면 못 찾은 것
     BigO
+        Insertion - O(logn)
+        Searching - O(logn)
+        다만 보장되지는 않음
+
+    트리 순회
+        트리 순회는 일반적인 트리 모두에 적용할 수 있음
+        Breadth First Search
+        -Iteratively
+            큐를 만들고 방문한 노드를 저장할 변수 생성
+            루트 노드를 큐에 넣기
+            큐에 노드가 남아 있는동안 루프
+                큐에서 노드를 dequeue하고 노드를 저장하는 변수에 push
+                만약 dequeue된 노드의 왼쪽 자식이 있다면 큐에 추가
+                만약 dequeue된 노드의 오른쪽 자식이 있다면 큐에 추가
+            방문한 노드를 저장한 변수 반환
+        Depth First Search

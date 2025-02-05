@@ -55,6 +55,7 @@ class BinarySearchTree{
         }
         return false;
     }
+    
     logTree(){
         if(!this.root) return;
         function recursive(currentNode){
