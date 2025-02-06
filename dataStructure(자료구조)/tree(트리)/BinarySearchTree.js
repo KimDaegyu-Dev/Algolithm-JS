@@ -5,8 +5,7 @@ class Node{
         this.right = null;
     }
 }
-
-class BinarySearchTree{
+export class BinarySearchTree{
     constructor(){
         this.root = null;
     }
@@ -68,11 +67,12 @@ class BinarySearchTree{
         
     }
 }
+
 let bst = new BinarySearchTree();
 
-console.log(bst.insert(3));
-bst.insert(3);
-console.log(bst.insert(4));
-console.log(bst.insert(2));
-console.log(bst.find(2));
-bst.logTree();
+// console.log(bst.insert(3));
+// bst.insert(3);
+// console.log(bst.insert(4));
+// console.log(bst.insert(2));
+// console.log(bst.find(2));
+// bst.logTree();
