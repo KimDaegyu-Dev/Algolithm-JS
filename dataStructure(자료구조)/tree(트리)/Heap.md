@@ -45,3 +45,8 @@
         
         활용 예
             운영체제의 프로세스 우선순위 관리
+
+        BigO
+        Insertion - O(logn)
+        Removal - O(logn)
+        search - o(N)
